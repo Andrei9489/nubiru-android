@@ -22,8 +22,6 @@ public class MainActivity extends Activity {
         ws.setJavaScriptEnabled(true);
         ws.setDomStorageEnabled(true);
         ws.setMediaPlaybackRequiresUserGesture(false);
-        ws.setAllowFileAccess(true);
-        ws.setAllowContentAccess(true);
         ws.setLoadWithOverviewMode(true);
         ws.setUseWideViewPort(true);
 
