@@ -1,14 +1,13 @@
 package com.nubiru.stream;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     WebView webView;
 
@@ -20,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(webView);
 
         WebSettings ws = webView.getSettings();
-
         ws.setJavaScriptEnabled(true);
         ws.setDomStorageEnabled(true);
         ws.setMediaPlaybackRequiresUserGesture(false);
